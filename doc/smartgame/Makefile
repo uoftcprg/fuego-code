@@ -4,5 +4,5 @@ doxygen:
 	doxygen doxygen.cfg
 
 clean:
-	rm -rf ../explorer-doc/sg-doc
+	rm -rf ../fuego-doc/smartgame-doc smartgame.tags
 
