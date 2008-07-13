@@ -12,25 +12,17 @@ class GoBoard;
 
 //----------------------------------------------------------------------------
 
-/** Compute a list of moves to filter at the root node of the current
-    search.
+/** Interface for using external knowledge to prune moves at the root node of
+    a search.
 */
 class GoUctRootFilter
 {
 public:
-    GoUctRootFilter(const GoBoard& bd);
-
     /** Get moves to filter in the current position.
         This function is invoked by the player before the search, it does not
         need to be thread-safe.
     */
-    std::vector<SgPoint> Get();
-
-private:
-    const GoBoard& m_bd;
-
-    /** Should move be filtered? */
-    bool FilterMove(SgMove move) const;
+    virtual std::vector<SgPoint> Get() = 0;
 };
 
 //----------------------------------------------------------------------------
