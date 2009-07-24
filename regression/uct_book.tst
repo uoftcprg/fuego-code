@@ -17,7 +17,7 @@ loadsgf sgf/games/2007/CGOS/193991.sgf 2
 
 loadsgf sgf/games/2008/CGOS/595283.sgf 5
 30 reg_genmove b
-#? [D3]
+#? [E3]
 # book move was C4, but this seems refuted by this game.
 # See followup tests below.
 
