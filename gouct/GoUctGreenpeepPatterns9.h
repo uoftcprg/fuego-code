@@ -1,3 +1,10 @@
+//----------------------------------------------------------------------------
+/** @file GoUctGreenpeepPatterns9.h */
+//----------------------------------------------------------------------------
+
+#ifndef GOUCT_GREENPEEP_PATTERNS_9_H
+#define GOUCT_GREENPEEP_PATTERNS_9_H
+
 PatternEntry greenpeepPatterns9[] = {
 { 0, 3887},
 { 1, 1419},
@@ -381348,3 +381355,7 @@ PatternEntry greenpeepPatterns9[] = {
 };
 
 const unsigned int nuGreenpeepPatterns9 = 381346;
+
+//----------------------------------------------------------------------------
+
+#endif // GOUCT_GREENPEEP_PATTERNS_9_H
