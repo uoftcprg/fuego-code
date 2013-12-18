@@ -2,7 +2,7 @@
 # Script for playing Fuego on 19x19 KGS on a machine with 8 cores / 8 GB
 
 FUEGO="../../build/opt/fuegomain/fuego"
-NAME=Fuego
+NAME=Fuego19
 DESCRIPTION=""
 
 usage() {
